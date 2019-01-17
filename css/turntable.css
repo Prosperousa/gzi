@@ -1,0 +1,383 @@
+/*
+* @Author: Dell
+* @Date:   2018-12-24 16:21:48
+* @Last Modified by:   Dell
+* @Last Modified time: 2018-12-27 12:45:38
+*/
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-style: normal;
+}
+input{
+    outline: none;
+}
+header{
+    padding: 0 0.25rem;
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    background: #F4F4F4;
+}
+.header-right{
+    width:33%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+}
+.header-fh{
+    width:0.5rem;
+    height: 1rem;
+}
+header span{
+	display: block;
+	width: 33%;
+	height: 100%;
+    font-size: 0.35rem;
+    color: #000;
+    line-height: 1rem;
+    text-align: center;
+    font-weight: bolder;
+}
+.header-right i{
+    font-size: 0.35rem;
+    line-height: 1rem;
+}
+header p{
+	display: block;
+	width: 33%;
+	height: 100%;
+}
+.banner{
+    width: 100%;
+    height: 16rem;
+    background-image: url('../img/choujiang/beijing.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.turnplate{
+    width: 6.3rem;
+    height: 6.3rem;
+    background-image: url('../img/choujiang/waiyuan.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 2.3rem;
+    margin: auto;
+    z-index: 6;
+}
+canvas{
+    position: absolute;
+    top:3.5rem;
+    right: 0;
+    bottom: 0rem;
+    left: 0.6rem;
+    margin: auto;
+}
+#tupBtn{
+    width:2rem;
+    height: 2.2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0.2rem;
+    bottom:0;
+    margin: auto;
+    opacity: 0;
+    z-index: 999;
+}
+.choujinag{
+    width:2.4rem;
+    height: 2.7rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left:0.15rem;
+    bottom: 0.3rem;
+    margin: auto;
+    z-index: 1;
+}
+.yinying{
+    position: absolute;
+    top: 3.8rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.hdsm{
+    font-size: 0.35rem;
+    color: #fff;
+    position: absolute;
+    bottom:3.2rem;
+    left: 0;
+    right: 0;
+    text-align: center; 
+}
+.zjjl{
+    font-size: 0.45rem;
+    color: #fff;
+    position: absolute;
+    bottom:1.45rem;
+    left: 0.15rem;
+    right: 0;
+    text-align: center;
+} 
+.mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+}
+.mask .upper{
+    width: 85%;
+    height:11rem;
+    background-image: url('../img/choujiang/zhongjiang.png');
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    border-radius: 0.2rem;
+    overflow: hidden;
+
+}
+ .mask .upper .tu p{
+    font-size:0.6rem;
+     float: right;
+     margin-right: 0.3rem;
+     color: #fff;
+}
+.mask .upper .xia{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.35rem;
+}
+.mask .upper .xia-left{
+    width: 50%;
+    height: 100%;
+    color: #646464;
+}
+.mask .upper .xia-right{
+    width: 50%;
+    height: 100%;
+    color: #FD464C;
+    text-align: center;
+}
+.mask .upper a{
+    display: block;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.upper h5{
+ font-size: 0.4rem;
+ color: #fff;  
+ display: block;
+ text-align: center; 
+ position: absolute;
+ left: 0;
+ right: 0;
+ bottom:5.2rem;
+}
+.upper h1{
+    font-size: 0.45rem;
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 1.1rem;
+}
+.mask1{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+}
+.mask1 .upper1{
+    width: 85%;
+    height:4rem;
+    background-image: url('../img/choujiang/chouwan.png');
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    border-radius: 0.2rem;
+    overflow: hidden;
+
+}
+ .mask1 .upper1 .tu1 p{
+    font-size:0.6rem;
+     float: right;
+     margin-right: 0.3rem;
+     color: #fff;
+}
+.mask1 .upper1 .xia{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.35rem;
+}
+.mask1 .upper1 .xia-left{
+    width: 50%;
+    height: 100%;
+    color: #646464;
+}
+.mask1 .upper1 .xia-right{
+    width: 50%;
+    height: 100%;
+    color: #FD464C;
+    text-align: center;
+}
+.mask1 .upper1 a{
+    display: block;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.mask2{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    padding: 0.24rem;
+    display: none;
+}
+.mask2 .tu2{
+    width: 100%;
+    height: 100%;
+    padding:1.4rem 0.35rem 0.35rem 0.35rem;
+}
+
+.Nb{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0 1rem 0 1rem;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: 0.02rem solid #cecece;  
+
+}
+
+.Nb li{
+    width: 1.7rem;
+    height: 0.8rem;
+    color: #fff;
+    font-size: 0.35rem;
+    text-align: center;
+    line-height: 0.7rem; }
+.active{
+    border-bottom: 0.06rem solid #fff;
+}
+.Nb .active1{
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+    display: none;
+}
+.Nd{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.Nd li{
+    width: 100%;
+    padding: 0 0.24rem 0 0.24rem;
+}
+.jclb{
+    width: 100%;
+    height: 100%;
+    margin-top: 0.3rem;
+}
+.jclb h1{
+    font-size: 0.4rem;
+    color: #000;
+    background: #fff;
+    display: block;
+    width:2rem;
+    text-align: center;
+    height: 0.7rem;
+    line-height: 0.7rem;
+
+}
+.jclb p{
+    font-size: 0.35rem;
+    color: #fff;
+    margin-top: 0.25rem;
+}
+/* .Nna{
+    padding: 0.1rem 0.1rem 0.6rem 0.1rem;
+    position: relative;
+     width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.2rem;
+    position: relative;
+} */
+.Nd p{
+    margin-top: 0.3rem;
+    font-size: 0.35rem;
+    color: #fff;
+}
+.wzj{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}

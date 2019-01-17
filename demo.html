@@ -1,0 +1,236 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="yes" name="apple-touch-fullscreen" />
+<meta content="telephone=no" name="format-detection" />
+ <link rel="stylesheet" href="https://at.alicdn.com/t/font_973450_xnq73g0yug.css">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta name="wap-font-scale" content="no">
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<title>大转盘抽奖</title>
+<meta name="keywords" content="" />
+<meta name="description" content="">
+<link type="text/css" rel="stylesheet" href="css/custom.css">
+<link type="text/css" rel="stylesheet" href="css/iosOverlay.css">
+<link href="css/component.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="js/awardRotate.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/iosOverlay.js"></script>
+<script type="text/javascript" src="js/spin.min.js"></script>
+</head>
+<body>
+<!--头部-->
+	<div class="coniter">
+        <header>
+            <div class="header-right">
+                <div class="header-fh">
+                    <i class="iconfont icon-guanbi"></i>
+                </div>
+            </div>
+            <span>坤锦园大转盘</span>
+            <p></p>
+        </header>
+    </div> 
+	<!-------------抽奖页面-------------->
+	<div class="ml-main" id="ml-main">
+        <div class="kePublic">
+            <!--转盘效果开始-->
+            <div style="max-width:640px; margin:0 auto">
+                <div class="banner">
+                    <div class="turnplate" style="background-image:url(images/choujiang/waiyuan.png);background-size:100% 100%;">
+                        <canvas class="item" id="wheelcanvas" width="516" height="516"></canvas>
+                        <img id="tupBtn" class="pointer" src="images/choujiang/choujiang.png"/>
+                    </div>
+                     <img src="./images/choujiang/yinying.png" alt="" class="yinying">
+                </div>
+            </div>
+
+            <!--转盘效果结束-->
+            <div class="clear"></div>
+        </div>
+                <div class="hdsm">
+                    活动说明
+                </div>
+                <div class="zjjl">
+                    我的中奖纪录
+                </div>
+	</div>
+    <div class="denglu" id="denglu">
+
+    </div>
+<!-------------中奖弹窗页面-------------->
+    <div class="zj-main" id="zj-main">
+            <div class="txzl">
+                <h2><span id="jiangpin" style="color: #fff"></span></h2>
+                <div class="info_tj">立即领取</div>
+            </div>
+            <div class="close_zj"><img src="images/close_1.png" /></div>
+	</div> 
+    <!-------------谢谢参与弹窗-------------->
+    <div class="xxcy-main" id="xxcy-main">
+    	<div class="xxcy">     
+        </div>
+    	<div class="close_xxcy"><img src="images/close_1.png" /></div>
+    </div>
+    <!-- 活动说明 -->
+    <div class="mask2">
+        <div class="tu2">
+            <div class="Na">
+            <p class="guanbi">×</p>
+                <ul class="Nb">
+                    <li class="sm active">
+                    活动说明
+                    </li>
+                    <li class="jiangpin">我的奖品
+                    </li>
+                </ul>
+            </div>
+         <div class="Nmast">
+        <div class="Nc Nmaster" style="display: block;">
+            <ul class="Nd">
+                <li>
+                    <div class="jclb">
+                        <h1>活动奖励</h1>
+                        <p>
+                            一等奖：9.9红包 <br>
+                            二等奖：6.6红包 <br>
+                            三等奖：5.5红包 <br>
+                        </p>
+                    </div>
+                    <div class="jclb">
+                        <h1>活动时间</h1>
+                        <p>
+                            2019年1月一日 08 ：00 -2019年2月6日 08 ：00
+                        </p>
+                    </div>
+                    <div class="jclb">
+                        <h1>主办单位</h1>
+                        <p>
+                            山西沁州黄小米集团谷之爱食品有限公司
+                        </p>
+                    </div>
+                    <div class="jclb">
+                        <h1>技术支持</h1>
+                        <p>
+                            由山西立表科硕网络科技有限公司提供，技术支持方公提供页面技术，不承担 由活动引起的相关法律责任
+                        </p>
+                    </div>
+                    <div class="jclb">
+                        <h1>活动说明</h1>
+                        <p>
+                            百分之百中奖率，收入将直接转入零钱
+                        </p>
+                    </div>
+                </li>
+                 <div class="jclb-dibu"></div>
+       
+            </ul>
+        </div>
+        <div class="Ne Nmaster" style="display: none;">
+            <ul class="Nd">
+                <p class="huojiang">您获得一等奖</p>
+                <p class="wzj">暂无中奖记录</p>
+            </ul>
+        </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    //    加载
+    $(document).on("click", ".info_tj", function(e) {
+        let opts = {
+            lines: 11, // The number of lines to draw
+            length: 5, // The length of each line
+            width: 3, // The line thickness
+            radius: 10, // The radius of the inner circle
+            corners: 1, // Corner roundness (0..1)
+            rotate: 0, // The rotation offset
+            color: '#FFF', // #rgb or #rrggbb
+            speed: 1, // Rounds per second
+            trail: 60, // Afterglow percentage
+            shadow: false, // Whether to render a shadow
+            hwaccel: false, // Whether to use hardware acceleration
+            className: 'spinner', // The CSS class to assign to the spinner
+            zIndex: 2e9, // The z-index (defaults to 2000000000)
+            top: 'auto', // Top position relative to parent in px
+            left: 'auto' // Left position relative to parent in px
+        };
+        let target = document.createElement("div");
+        document.body.appendChild(target);
+        let spinner = new Spinner(opts).spin(target);
+        $(".spinner").removeAttr("style");
+        iosOverlay({
+            text: "加载中",
+            duration: 2e3,
+            spinner: spinner
+        });
+        // return false;
+        $(function(){
+            let num = 0;
+            let kg = true;
+            setInterval(function(){
+                if(kg){
+                    if(num==101){
+                        setTimeout(function(){
+                            window.location.href='choujiang.html';
+                        },500)
+                        $('.cup').css('animation','none')
+                        $('html').css({'opacity':'0'})
+                        kg=false;
+                        return false;
+                    }
+                    $('.load_number').html(num);
+                    num++;
+                }
+            },30)
+            // $('.load_bg2 p').css('width','100%')
+        })
+
+    });
+// 活动说明
+    function HouDong(){
+         let par = document.querySelectorAll(".Na li");
+         let son = document.querySelectorAll(".Nmast .Nmaster");
+        let huodong=document.querySelector(".sm");
+        let jiangpin=document.querySelector(".jiangpin");
+        for (let i = 0; i < par.length; i++) {
+            par[i].onclick = function () {
+                for (let j = 0; j < son.length; j++) {
+                    son[j].style.display = "none";
+                    par[j].classList.remove("active");
+                }
+                son[i].style.display = "block";
+                par[i].classList.add("active");
+            }
+         }
+    }
+    let huodong=document.querySelector(".hdsm");
+    let zhezhao=document.querySelector(".mask2");
+    let guanbi=document.querySelector(".Na .guanbi");
+    let zjjl=document.querySelector(".zjjl");
+    console.log(zjjl);
+    huodong.onclick=function(){
+         zhezhao.style.display = "block";
+         HouDong();
+    }
+    guanbi.onclick=function(){
+        zhezhao.style.display="none";
+    }
+    zjjl.onclick=function(){
+        zhezhao.style.display="block";
+         HouDong();
+    }
+    // 判断结束时间
+    let today=new Date();
+    let jieshu=today.setDate(today.getDate()+20);
+</script>

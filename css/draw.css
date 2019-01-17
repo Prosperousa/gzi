@@ -1,0 +1,58 @@
+/*
+* @Author: Dell
+* @Date:   2018-12-24 10:26:55
+* @Last Modified by:   Dell
+* @Last Modified time: 2018-12-24 16:59:43
+*/
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-style: normal;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+}
+header{
+	width: 100%;
+	height: 100%;
+}
+.box{
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/choujiang/shouye.png');
+	background-size: 100% 100%;
+	position: relative;
+
+}
+.cyhd{
+	width:2rem;
+	height:0.5rem;
+	font-size: 0.35rem;
+	color: #d46c25;
+	position: absolute;
+	bottom:0;
+	right: 0;
+	left: 0;
+	margin:0 auto;
+}
+.box a{
+	display: block;
+	font-size: 0.35rem;
+	color: #D46C25;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	bottom:2rem;
+	right: 0;
+	left:0;
+	margin:0 auto;
+
+}

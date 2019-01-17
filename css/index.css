@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-style: normal;
+}
+/* 头部样式 */
+header{
+    padding: 0 0.24rem;
+    width: 100%;
+    height: 1rem;
+    display: flex;
+   justify-content: space-between;
+}
+.header-right{
+    width:50%;
+    height: 1rem;
+    display: flex;
+}
+.header-fh{
+    width:0.5rem;
+    height: 1rem;
+}
+.header-right span{
+    font-size: 0.35rem;
+    color: #000;
+    line-height: 1rem;
+}
+.header-left{
+    width: 7%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.header-right i{
+    font-size: 0.35rem;
+}
+.header-fh{
+    align-items: center;
+    justify-content: right;
+    font-size: 0.3rem;
+    line-height:1rem;
+}
+.swiper-container{
+    width: 100%;
+    height:9rem;
+    overflow: hidden;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100%;
+    height:1.5rem ;
+    background:#F5F3F3;
+    border-top: 2px solid #E7E7E7;
+    border-bottom:2px solid #E7E7E7;
+    position: relative;
+}
+nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0.24rem;
+    padding:0 0.24rem
+}
+nav a{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    text-decoration: none;
+}
+nav li{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    padding: 0.1rem;
+}
+nav ul li p{
+    font-size: 0.25rem;
+    color: #ffffff;
+    text-align: center;
+    /*line-height: 0.65rem;*/
+    text-decoration: none;
+    display: block;
+    margin-top: 0.2rem;
+}
+.huodong{
+    background:#FF6A6A ;
+    text-align: center;
+    color: #fff;
+}
+.huodong i{
+    font-size: 0.5rem;
+    line-height: 0.01rem;
+    text-decoration: none;
+}
+.gongzonghao{
+    background:#35DA96 ;
+    text-align: center;
+    color: #fff;
+}
+.gongzonghao i{
+    font-size: 0.56rem;
+    line-height: 0.1rem;
+    text-decoration: none;
+}
+.guanwang p{
+    line-height: 0.4rem;
+    margin-top: 0.2rem;
+}
+.guanwang{
+    background:#2DAEE4 ;
+    text-align: center;
+    color: #fff;
+}
+.guanwang i{
+    font-size: 0.5rem;
+    line-height: 0.01rem;
+    text-decoration: none;
+}
+.suyuan{
+    background:#FD8F18 ;
+    text-align: center;
+    color: #fff;
+}
+.suyuan i{
+    font-size: 0.6rem;
+    line-height: 0.05rem;
+    text-decoration: none;
+}
+.bk{
+    width: 100%;
+    height:0.2rem ;
+    border-bottom: 2px solid #E7E7E7;
+    background:#F5F3F3;
+}
+main{
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #E7E7E7;
+    border-top: 2px solid #E7E7E7;
+    padding: 0 0.24rem;
+}
+.cpjj{
+    width: 100%;
+    padding-bottom: 0.4rem;
+}
+.cpjj h5{
+    font-weight: bolder;
+    font-size: 0.4rem;
+    margin-top: 0.24rem;
+}
+.cpjj span,p{
+    color: #727272;
+    font-size: 0.3rem;
+}
+.cpjj-sc{
+    margin-top: 0.3rem;
+}
+.cpjj-nf{
+    display: block;
+    margin-top: 0.6rem;
+}
+.progress{
+    border-radius: 1rem;
+    width: 80%;
+}
+.progress-bar{
+    background: #F35822;
+    color: #fff;
+    border-radius: 1rem;
+}
+.shengyu{
+    width: 100%;
+    height: 0.5rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.shengyu h5{
+    color: red;
+    margin-right: 0.05rem;
+}
+.cpxq{
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #E7E7E7;
+    padding: 0.24rem 0 0.3rem 0;
+}
+.tt{
+    display: inline;
+}
+.tt .son{
+    display: none;
+}
+.tt .one{
+    border-bottom: 2px solid #E7E7E7;
+    padding:0 0.24rem;
+}
+.tt  .yi{
+    width: 100%;
+    height: 100%;
+}
+.tt .yi span{
+    font-size: 0.35rem;
+    font-weight: bolder;
+    line-height: 1.2rem;
+}
+.tt  .yi a{
+    float: right;
+    display: block;
+    width: 8%;
+    height: 100%;
+    line-height: 1.2rem;
+    text-decoration: none;
+}
+.tt .yi a i{
+    font-size: 0.35rem;
+    font-weight: bolder;
+    line-height: 1.2rem;
+}
+.xiala ul{
+    padding-left: 53px;
+    padding-right: 53px;
+}
+.xiala ul li{
+    width: 100%;
+    height: 47px;
+    border-bottom: 1px solid #282828;
+    color: #fff;
+    line-height: 47px;
+}
+.xiala ul li:hover{
+    color: #949494;
+}
+.son-pic{
+    width: 100%;
+    height: 4rem;
+    border-bottom: 0.01rem solid #cecece;
+}
+.son-pic img{
+    width: 70%;
+    height: 100%;
+    margin-left: 0.3rem;
+
+}
+.son li p{
+    color: #000;
+}
+.son li span{
+    font-size: 0.20rem;
+    color: #cecece;
+}
+.son li h5{
+    line-height: 0.8rem;
+}
+.lianxi{
+    width: 2rem;
+    height:0.6rem;
+    text-align: center;
+    background: #fff;
+    border: 0.03rem solid #3bacfe;
+    color: #3bacfe;
+    -webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    border-radius: 0.1rem;
+}
+.lianxi i{
+    text-decoration: none;
+    font-size: 0.3rem;
+    color: #3bacfe;
+    line-height: 0.6rem;
+}
+.lianxi span{
+    text-decoration: none;
+    font-size: 0.25rem;
+    color: #3bacfe;
+    line-height: 0.6rem;
+}
+.son a{
+    color: #3bacfe;
+}
+.hot{
+    transform:rotate(180deg);
+}

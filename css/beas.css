@@ -1,0 +1,18 @@
+/*
+* @Author: Dell
+* @Date:   2018-08-13 09:09:29
+* @Last Modified by:   Dell
+* @Last Modified time: 2018-08-13 09:11:04
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}

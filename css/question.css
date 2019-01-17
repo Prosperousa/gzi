@@ -1,0 +1,229 @@
+/*
+* @Author: Dell
+* @Date:   2018-12-24 16:21:48
+* @Last Modified by:   Dell
+* @Last Modified time: 2018-12-26 16:13:06
+*/
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-style: normal;
+}
+input{
+    outline: none;
+}
+header{
+    padding: 0 0.25rem;
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    background: #F4F4F4;
+}
+.header-right{
+    width:33%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+}
+.header-fh{
+    width:0.5rem;
+    height: 1rem;
+}
+header span{
+	display: block;
+	width: 33%;
+	height: 100%;
+    font-size: 0.35rem;
+    color: #000;
+    line-height: 1rem;
+    text-align: center;
+    font-weight: bolder;
+}
+.header-right i{
+    font-size: 0.35rem;
+    line-height: 1rem;
+}
+header p{
+	display: block;
+	width: 33%;
+	height: 100%;
+}
+.banner{
+	width: 100%;
+	height: 3rem;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+nav{
+	width: 100%;
+	height: 100%;
+	padding: 0.24rem 0.24rem 0.1rem 0.24rem;
+}
+nav h4{
+	font-size: 0.32rem;
+	color: #404040;
+	font-weight: bold;
+}
+.form-group span{
+    color: red;
+    margin-left: 0.1rem;
+}
+form label{
+	margin-top: 0.17rem;
+	font-size: 0.35rem;
+}
+.form-control{
+	width: 100%;
+	height: 0.8rem;
+    font-size: 0.35rem;
+    outline: none;
+}
+input{
+    outline: none;
+}
+form{
+    width: 100%;
+    height: 100%;
+    padding: 0 0.28rem 0 0.24rem;
+}
+.checkbox{
+     width: 100%;
+    height: 1rem;
+    border: 0.02rem solid #EBEBEB;
+    padding: 0.24rem 0.24rem 0.24rem 0.35rem;
+    border-radius: 0.05rem;
+}
+/* .active{
+    background: #D2E4FC;
+    border: 0.02rem solid #4E7BD6; 
+} */
+.duoxuan{
+    width: 0.25rem;
+    height: 0.25rem;
+    background: #fff;
+    border-radius: 0.1rem;
+}
+.form-group p{
+    margin-left: 0.3rem;
+}
+.lxfs{
+    position: relative;
+}
+.form-group i{
+    font-size: 0.35rem;
+    position: absolute;
+    top: 0.9rem;
+    right:0.24rem;
+    bottom: 0;
+}
+.dxk{
+    margin-bottom: 0.35rem;
+}
+.tijiao{
+    width: 40%;
+    height: 0.8rem;
+    margin:0 auto;
+}
+.btn1{
+    width: 100%;
+    height: 0.8rem;
+    border-radius: 0.1rem;
+    background: #2570FD;
+    color: #fff;
+    font-size: 0.3rem;
+    margin-top: 0.05rem;
+}
+footer{
+    padding: 0 0.24rem 0 0.24rem;
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+footer a{
+    text-decoration: none;
+}
+footer p{
+    font-size: 0.3rem;
+    color: #6C6C6C;
+    text-decoration: none;
+}
+footer a p{
+     font-size: 0.3rem;
+    color: #6C6C6C;
+    text-decoration: none;
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+}
+.mask .upper{
+    width: 75%;
+    height: 6.9rem;
+    background-image: url('../img/choujiang/tijiao.png');
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    border-radius: 0.2rem;
+    overflow: hidden;
+
+}
+ .mask .upper .tu p{
+    font-size:0.6rem;
+     float: right;
+     margin-right: 0.3rem;
+     color: #fff;
+}
+.mask .upper .xia{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.35rem;
+}
+.mask .upper .xia-left{
+    width: 50%;
+    height: 100%;
+    color: #646464;
+}
+.mask .upper .xia-right{
+    width: 50%;
+    height: 100%;
+    color: #FD464C;
+    text-align: center;
+}
+.mask .upper a{
+    display: block;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+}

@@ -2,9 +2,10 @@
 * @Author: Dell
 * @Date:   2018-12-21 13:34:11
 * @Last Modified by:   Dell
-* @Last Modified time: 2018-12-21 13:35:59
+* @Last Modified time: 2018-12-26 11:57:35
 */
 window.onload=function(){
+    // 轮播图
 	 let mySwiper = new Swiper ('.swiper-container', {
         direction: 'horizontal',
         loop: true,
@@ -19,6 +20,7 @@ window.onload=function(){
             el: '.swiper-scrollbar',
         },
     })
+     // 选项卡
     let par = document.querySelectorAll(".Na li");
     let son = document.querySelectorAll(".Nmast .Nmaster");
     console.log(par, son);
@@ -32,7 +34,7 @@ window.onload=function(){
             par[i].classList.add("active");
         }
     }
-
+    // 下侧轮播图
     let imgs=document.querySelectorAll(".imgs img");               /*获取元素*/
     let banner=document.querySelectorAll(".banner")[0];
     let leftbtn=document.querySelectorAll(".leftbtn")[0];
