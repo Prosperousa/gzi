@@ -1,0 +1,358 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-style: normal;
+}
+.swiper-container{
+    width: 100%;
+    height:9rem;
+    overflow: hidden;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100%;
+    height:1.5rem ;
+    background:#F5F3F3;
+    border-top: 2px solid #E7E7E7;
+    border-bottom:2px solid #E7E7E7;
+    position: relative;
+}
+nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0.24rem;
+    padding:0 0.24rem
+}
+nav a{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    text-decoration: none;
+}
+nav li{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    padding: 0.1rem;
+}
+nav ul li p{
+    font-size: 0.25rem;
+    color: #ffffff;
+    text-align: center;
+    /*line-height: 0.65rem;*/
+    text-decoration: none;
+    display: block;
+    margin-top: 0.2rem;
+}
+.huodong{
+    background:#FF6A6A ;
+    text-align: center;
+    color: #fff;
+}
+.huodong i{
+    font-size: 0.5rem;
+    line-height: 0.01rem;
+    text-decoration: none;
+}
+.gongzonghao{
+    background:#35DA96 ;
+    text-align: center;
+    color: #fff;
+}
+.gongzonghao i{
+    font-size: 0.56rem;
+    line-height: 0.1rem;
+    text-decoration: none;
+}
+.guanwang p{
+    line-height: 0.4rem;
+    margin-top: 0.2rem;
+}
+.guanwang{
+    background:#2DAEE4 ;
+    text-align: center;
+    color: #fff;
+}
+.guanwang i{
+    font-size: 0.5rem;
+    line-height: 0.01rem;
+    text-decoration: none;
+}
+.suyuan{
+    background:#FD8F18 ;
+    text-align: center;
+    color: #fff;
+}
+.suyuan i{
+    font-size: 0.6rem;
+    line-height: 0.05rem;
+    text-decoration: none;
+}
+.bk{
+    width: 100%;
+    height:0.2rem ;
+    border-bottom: 2px solid #E7E7E7;
+    background:#F5F3F3;
+}
+.tt{
+    display: inline;
+}
+.tt .son{
+    display: none;
+}
+.tt .one{
+    border-bottom: 2px solid #E7E7E7;
+    padding:0 0.24rem;
+}
+.tt  .yi{
+    width: 100%;
+    height: 100%;
+}
+.tt .yi span{
+    font-size: 0.35rem;
+    font-weight: bolder;
+    line-height: 1.2rem;
+}
+.tt  .yi a{
+    float: right;
+    display: block;
+    width: 8%;
+    height: 100%;
+    line-height: 1.2rem;
+    text-decoration: none;
+}
+.tt .yi a i{
+    font-size: 0.35rem;
+    font-weight: bolder;
+    line-height: 1.2rem;
+}
+.xiala ul{
+    padding-left: 53px;
+    padding-right: 53px;
+}
+.xiala ul li{
+    width: 100%;
+    height: 47px;
+    border-bottom: 1px solid #282828;
+    color: #fff;
+    line-height: 47px;
+}
+.xiala ul li:hover{
+    color: #949494;
+}
+.son-pic{
+    width: 100%;
+    height: 4rem;
+    border-bottom: 0.01rem solid #cecece;
+}
+.son-pic img{
+    width: 70%;
+    height: 100%;
+    margin-left: 0.3rem;
+
+}
+.son li p{
+    color: #000;
+}
+.son li span{
+    font-size: 0.20rem;
+    color: #cecece;
+}
+.son li h5{
+    line-height: 0.8rem;
+}
+.lianxi{
+    width: 2rem;
+    height:0.6rem;
+    text-align: center;
+    background: #fff;
+    border: 0.03rem solid #3bacfe;
+    color: #3bacfe;
+    -webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    border-radius: 0.1rem;
+}
+.lianxi i{
+    text-decoration: none;
+    font-size: 0.3rem;
+    color: #3bacfe;
+    line-height: 0.6rem;
+}
+.lianxi span{
+    text-decoration: none;
+    font-size: 0.25rem;
+    color: #3bacfe;
+    line-height: 0.6rem;
+}
+.son a{
+    color: #3bacfe;
+}
+.hot{
+    transform:rotate(180deg);
+}
+
+.gsmc{
+    width: 100%;
+    height:0.8rem;
+    color: #000;
+    text-align: center;
+}
+.bk{
+    width: 100%;
+    height:0.2rem ;
+    border-bottom: 2px solid #E7E7E7;
+    background:#F5F3F3;
+}
+main{
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #E7E7E7;
+    border-top: 2px solid #E7E7E7;
+}
+.cpjj{
+    width: 100%;
+    padding: 0 0.24rem 0 0.24rem;
+}
+.cpjj h5{
+    font-weight: bolder;
+    font-size: 0.4rem;
+    margin-top: 0.24rem;
+}
+.cpjj span,p{
+    color: #727272;
+    font-size: 0.3rem;
+}
+.cpjj-sc{
+    margin-top: 0.3rem;
+}
+.cpjj-nf{
+    display: block;
+    margin-top: 0.6rem;
+}
+
+.cpjj-mc h5{
+    font-size: 0.35rem;
+    color: #475476;
+}
+.progress{
+    border-radius: 1rem;
+    width: 80%;
+}
+.progress-bar{
+    color: #000;
+
+}
+.leibie{
+    width: 100%;
+    background:#DDF9FC; 
+    padding:0.05rem 0 0.05rem 0.24rem;
+
+}
+.shengyu{
+    width: 100%;
+    height: 0.5rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.shengyu h5{
+    color: red;
+    margin-right: 0.05rem;
+}
+.cpxq{
+    width: 100%;
+    height: 100%;
+    padding: 0.24rem 0 0.3rem 0.24rem;
+     background: #FDF5EA;
+     margin-top: 0.24rem;
+}
+.bt1{
+    font-size: 0.3rem;
+    font-weight: bolder;
+    color: #000;
+}
+.pl{
+    width: 100%;
+    padding: 0.24rem 0 0.24rem 0.24rem;
+    background: #F1FEF4;
+    margin-top: 0.24rem;
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+}
+.mask .upper{
+    width:60%;
+    height: 4.5rem;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    border-radius: 0.2rem;
+    /*overflow: hidden;*/
+
+}
+.mask .upper .tu p{
+    font-size:0.6rem;
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: -0.8rem;
+    right: 0;
+
+}
+.mask .upper .xia{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.35rem;
+}
+.mask .upper .xia-left{
+    width: 50%;
+    height: 100%;
+    color: #646464;
+}
+.mask .upper .xia-right{
+    width: 50%;
+    height: 100%;
+    color: #FD464C;
+    text-align: center;
+}
+.mask .upper a{
+    display: block;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+}
